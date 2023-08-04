@@ -1,0 +1,476 @@
+\begin{document}
+    \name{Nilesh Madhukar Patil.}
+    \tagline{}
+    %% You can add multiple photos on the left or right
+    \photoL{4cm}{Sn.jpg}
+    
+    \personalinfo{
+        \email{nileshpatil.nmv@gmail.com}\smallskip
+        \phone{7030518017}
+        \location{Surat, India}\\
+        \linkedin{https://www.linkedin.com/in/nilesh-patil-82b9b922a }
+        
+       % \github{johnDoe}
+        %\dev{johnDoe}
+        %\homepage{nicolasomar.me}
+        %\medium{nicolasomar}
+        %% You MUST add the academicons option to \documentclass, then compile with LuaLaTeX or XeLaTeX, if you want to use \orcid or other academicons commands.
+        % \orcid{0000-0000-0000-0000}
+        %% You can add your own arbtrary detail with
+        %% \printinfo{symbol}{detail}[optional hyperlink prefix]
+        % \printinfo{\faPaw}{Hey ho!}[https://example.com/]
+        %% Or you can declare your own field with
+        %% \NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix] and use it:
+        % \NewInfoField{gitlab}{\faGitlab}[https://gitlab.com/]
+        % \gitlab{your_id}
+    }
+    
+    \makecvheader
+    %% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+    % \AtBeginEnvironment{itemize}{\small}
+    
+    %% Set the left/right column width ratio to 6:4.
+    \columnratio{0.25}
+
+    % Start a 2-column paracol. Both the left and right columns will automatically
+    % break across pages if things get too long.
+    \begin{paracol}{2}
+        % ----- STRENGTHS -----
+        \cvsection{Strengths}
+           % \cvtag{Positive attitude towards life}\\
+            \cvtag{ Disciplined}\\
+           % \cvtag{ Time Management art}\\
+            \cvtag{ Capacity to deal with stress}\\
+           \cvtag{Goal Oriented}\\
+            \cvtag{ Flexibility and adaptability}
+            %\cvtag{ Goal Oriented}\\
+           % \cvtag{Eight}
+            %\cvtag{Nine}
+          %  \cvtag{Ten}
+            \medskip
+            
+            %\cvtag{Red}
+            %\cvtag{Yellow}
+            %\cvtag{Blue}
+            %\cvtag{Green}
+           % \cvtag{Violet}
+           % \cvtag{Orange}
+        % ----- STRENGTHS -----
+        \cvsection{ Skills}
+       % \cvtag{ Management}\\
+      %  \cvtag{ Communication Skills}\\
+       % \cvtag{ Teamwork}\\
+      %  \cvtag{ Critical thinking}\\
+        %\cvtag{ Creativity}\\
+        \cvtag{Supply Planning and Analysis}\\
+        \cvtag{Warehouse Management}\\
+        \cvtag{Team leadership}\\
+        \cvtag{Vendor negotiation}\\
+        \cvtag{Supplier Management}\\
+        \cvtag{Communication Skills}
+        % ----- LEARNING -----
+        %\cvsection{Learning}
+           % \cvtag{Uno}
+            %\cvtag{Dos}
+            %\cvtag{Tres}
+            %\cvtag{Cuatro}
+           % \cvtag{Cinco}
+            %\cvtag{Seis}
+            %\cvtag{Siete}
+            %\cvtag{Ocho}
+            %\cvtag{Nueve}
+           % \cvtag{Diez}
+           % \medskip
+            
+           % \cvtag{Rojo}
+            %\cvtag{Amarillo}
+           % \cvtag{Azul}
+            %\cvtag{Verde}
+           % \cvtag{Violeta}
+            %\cvtag{Naranja}
+            %\cvtag{Marron}
+            %\cvtag{Blanco}
+           % \cvtag{Gris}
+            %\cvtag{Negro}
+        % ----- LEARNING -----
+        
+        % ----- LANGUAGES -----
+        \cvsection{ Technical\\\vspace{0.1cm} Skills}
+            \cvtag{SAP}\\
+            \cvtag{MS Excel}\\
+            
+            \cvtag{C-Programming}\\
+           
+           % \cvtag{ MS Excel}\\
+            \cvtag{ Adobe Photoshop}\\
+           % \cvtag{ CorelDRAW}
+            
+            \divider
+            
+            
+            %% Yeah I didn't spend too much time making all the
+            %% spacing consistent... sorry. Use \smallskip, \medskip,
+            %% \bigskip, \vpsace etc to make ajustments.
+            \smallskip
+        % ----- LANGUAGES ----
+        %----- Languages-----
+        \cvsection{ Languages }
+        \begin{itemize}
+           
+        
+        \item English
+        \item Hindi
+        \item Marathi
+        \item Gujarati
+        \end{itemize}
+        \smallskip
+            
+        % ----- REFERENCES -----
+        \cvsection{ Personal info}
+            \begin{itemize}
+                \item \textbf{DOB}: 14-10-1999
+                 \item \textbf{Gender}: Male
+                \item \textbf{Address}: 19,Mahaprabhu Nagar 3,Limbayat, Surat
+               % \item \textbf{Marital status}: Unmarried
+             \end{itemize}
+         \divider
+        \smallskip
+        
+       % \cvsection{ Hobbies}
+           % \cvtag{ Reading books}
+           % \cvtag{ Puzzle Solving}
+           % \cvtag{ Playing Cricket}
+          %  \smallskip
+        % ----- REFERENCES -----
+        
+        % ----- MOST PROUD -----
+        % \cvsection{Most Proud of}
+        
+        % \cvachievement{\faTrophy}{Fantastic Achievement}{and some details about it}\\
+        % \divider
+        % \cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}\\
+        % \divider
+        % \cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
+        % ----- MOST PROUD -----
+        
+        % \cvsection{A Day of My Life}
+        
+        % Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
+        % \wheelchart{outer radius}{inner radius}{
+        % comma-separated list of value/text width/color/detail}
+        % \wheelchart{1.5cm}{0.5cm}{%
+        %   6/8em/accent!30/{Sleep,\\beautiful sleep},
+        %   3/8em/accent!40/Hopeful novelist by night,
+        %   8/8em/accent!60/Daytime job,
+        %   2/10em/accent/Sports and relaxation,
+        %   5/6em/accent!20/Spending time with family
+        % }
+        
+        % use ONLY \newpage if you want to force a page break for
+        % ONLY the current column
+        \newpage
+        
+        %% Switch to the right column. This will now automatically move to the second
+        %% page if the content is too long.
+        \switchcolumn
+        
+        % ----- ABOUT ME -----
+      
+        \cvsection{Summary}
+            
+                Data driven and  result oriented procurement & supply chain professional, with 03 Years of experience in effectively managing all key elements of supply chain and forming strategies to balance the demand and supply requirement, knoweldge of SAP-HANA and MS-Excel for reporting & data analysis. Persuasive communicator , anaytical mindset and team collaborator
+
+            
+        % ----- ABOUT ME -----
+        
+        % ----- EXPERIENCE -----
+        \cvsection{Experience}
+        \cvevent{Officer}{| D Mart } {Oct 2022 - Present}{Surat, India}
+        
+        \begin{itemize}
+            \item Formulate supply chain planning strategies according to projection
+            \item Review and analyzed statistical and historical data for accurate procurement and storage of material.
+            \item Manage end to end supply chain operational processes like Receiving, GRN, Storage and Dispatch.
+            \item Proactively act on replenishment strategies
+            
+        \end{itemize}
+        \divider
+
+
+
+     
+           \cvevent{ Operation Supervisor}{| Busybees Logistics Solution Pvt. Ltd.}{ Oct 2020 - Sept 2022
+           }{Surat, India}
+            %
+        \begin{itemize}
+             \item Efficiently and effectively receiving and storing goods inwards
+                \item Conduct cost analysis and negotiation with transport vendors for Vehicle alignment.
+              \item Tracking of vehicles in coordination with vendors for timely delivery all over India.
+              \item Supervised all warehouse operations, including Outbound and inbound  and creating MIS report of inward and outward.
+              \item Handling contract labours and third party staff.
+           \end{itemize}
+           % \divider
+            
+           \cvevent{ Processing Associate}{| Blue Dart}{ Aug 2017-- Jan 2018}{Surat, India}
+           % \begin{itemize}
+              %  \item First item
+             %  \item Second item
+               % \item Third item
+           % \end{itemize}
+           
+        % ----- EXPERIENCE -----
+        
+        % ----- EDUCATION -----
+        \cvsection {Education}
+            \cvevent{ B.Sc. Physics}{| Navyug Science College,Surat}{2017 -- 2020}{Surat, India}
+            %\begin{itemize}
+               % \item Percentage: 58.6
+            %\end{itemize}
+            \divider
+            
+            \cvevent{ HSC Science}{| Pratap College,Amalner}{2015 -- 2017}{ Amalner, India}
+           % \begin{itemize}
+               % \item Percentage: 66.3
+            %\end{itemize}
+          %  \divider
+            
+            
+         %   \cvevent{SSC}{| Sharada Madhyamik Vidyalay, Kalamsare}{2015}{Amalner,India}
+          %  \begin{itemize}
+            %    \item Percentage: 86.20
+            %\end{itemize}
+          %  \smallskip
+        % ----- EDUCATION -----
+        
+        % ----- PROJECTS -----
+        %\cvsection{Projects}
+          %  \cvevent{Project 1 }{\cvrepo{| \faGithub}{https://github.com/user/repo}\cvrepo{| \faGlobe}{https://repo-demo.com/}}{Mm YYYY -- Mm YYYY}{}
+           % \begin{itemize}
+              %  \item Item 1
+              %  \item Item 2
+            %\end{itemize}
+            %\divider
+            
+            %\cvevent{Project 1 }{\cvrepo{| \faGitlab}{https://gitlab.com/user/repo}\cvrepo{| \faGlobe}{https://repo-demo.com/}}{Mm YYYY -- Mm YYYY}{}
+            %\begin{itemize}
+               % \item Item 1
+               % \item Item 2
+           % \end{itemize}
+        % ----- PROJECTS -----
+        %-----Hobbies-------
+        \cvsection{ Hobbies}
+        \begin{itemize}
+          
+       
+        \item Reading books\\
+        \item  Puzzle Solving\\
+        \item Playing Cricket
+        \end{itemize}
+        \smallskip
+        %\divider
+        
+        
+        \cvsection{ Declaration}
+        I hereby declare that the information furnished above is true to the best of my knowledge and belief.\\\vspace{0.5cm}
+                                                             \hspace{11cm}Nilesh Patil
+
+        
+    \end{paracol}
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{document}
+    \name{Gaurav Vikas Patil}
+    \tagline{Web Developer}
+    %% You can add multiple photos on the left or right
+    \photoL{4cm}{Gaurav}
+
+    \personalinfo{
+        \email{gauravvikaspatil@gmail.com}\smallskip
+        \phone{+91-9689798050}
+        \location{Pune,India}\\
+        \linkedin{https://www.linkedin.com/in/gaurav-patil-913092262}
+        \github{githubUser}
+        %\npm{npmUser}
+        %\dev{devtoUser}
+        %\homepage{nicolasomar.me}
+        %\medium{nicolasomar}
+        %% You MUST add the academicons option to \documentclass, then compile with LuaLaTeX or XeLaTeX, if you want to use \orcid or other academicons commands.
+        % \orcid{0000-0000-0000-0000}
+        %% You can add your own arbtrary detail with
+        %% \printinfo{symbol}{detail}[optional hyperlink prefix]
+        % \printinfo{\faPaw}{Hey ho!}[https://example.com/]
+        %% Or you can declare your own field with
+        %% \NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix] and use it:
+        % \NewInfoField{gitlab}{\faGitlab}[https://gitlab.com/]
+        % \gitlab{your_id}
+    }
+    
+    \makecvheader
+    %% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+    % \AtBeginEnvironment{itemize}{\small}
+    
+    %% Set the left/right column width ratio to 6:4.
+    \columnratio{0.25}
+
+    % Start a 2-column paracol. Both the left and right columns will automatically
+    % break across pages if things get too long.
+    \begin{paracol}{2}
+        % ----- TECH STACK -----
+        \cvsection{Strengths}
+           % \cvtag{Positive attitude towards life}\\
+            \cvtag{ Disciplined}\\
+           % \cvtag{ Time Management art}\\
+            \cvtag{ Capacity to deal with stress}\\
+           \cvtag{Goal Oriented}\\
+            \cvtag{ Flexibility and adaptability}
+        % ----- TECH STACK -----
+        
+        % ----- LEARNING -----
+        \cvsection{Skills}
+       % \cvtag{ Management}\\
+      %  \cvtag{ Communication Skills}\\
+       % \cvtag{ Teamwork}\\
+      %  \cvtag{ Critical thinking}\\
+        %\cvtag{ Creativity}\\
+        \cvtag{HTML}
+        \cvtag{CSS}\\
+        \cvtag{JavaScript}
+        \cvtag{React.js}\\
+        \cvtag{Java}
+        \cvtag{C}
+        \cvtag{C++}\\
+        \cvtag{Machine Learning}
+        \cvtag{DSA}\\
+        % ----- LEARNING -----
+        
+        % ----- LANGUAGES -----
+        \cvsection{Languages}
+            \cvlang{English}{Read,Write,Speak}\\
+            \divider
+
+           \cvlang{Hindi}{Read,Write,Speak}\\
+            \divider
+            \cvlang{Marathi}{Read,Write,Speak}\\
+            \divider
+            %% Yeah I didn't spend too much time making all the
+            %% spacing consistent... sorry. Use \smallskip, \medskip,
+            %% \bigskip, \vpsace etc to make ajustments.
+        % ----- LANGUAGES -----
+            
+        % ----- REFERENCES -----
+        %\cvsection{References}
+           % \cvref{Prof.\ Alpha Beta}{Institute}{a.beta@university.edu}
+            %\divider
+
+           % \cvref{Boss\ Gamma Delta}{Business}{g.delta@business.com}
+        % ----- REFERENCES -----
+        
+        % ----- MOST PROUD -----
+        % \cvsection{Most Proud of}
+        
+        % \cvachievement{\faTrophy}{Fantastic Achievement}{and some details about it}\\
+        % \divider
+        % \cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}\\
+        % \divider
+        % \cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
+        % ----- MOST PROUD -----
+        
+        % \cvsection{A Day of My Life}
+        
+        % Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
+        % \wheelchart{outer radius}{inner radius}{
+        % comma-separated list of value/text width/color/detail}
+        % \wheelchart{1.5cm}{0.5cm}{%
+        %   6/8em/accent!30/{Sleep,\\beautiful sleep},
+        %   3/8em/accent!40/Hopeful novelist by night,
+        %   8/8em/accent!60/Daytime job,
+        %   2/10em/accent/Sports and relaxation,
+        %   5/6em/accent!20/Spending time with family
+        % }
+        
+        % use ONLY \newpage if you want to force a page break for
+        % ONLY the current column
+        \newpage
+        
+        %% Switch to the right column. This will now automatically move to the second
+        %% page if the content is too long.
+        \switchcolumn
+        
+        % ----- ABOUT ME -----
+        \cvsection{About Me}
+            \begin{quote}
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            \end{quote}
+        % ----- ABOUT ME -----
+        
+        % ----- EXPERIENCE -----
+        \cvsection{Experience}
+            \cvevent{Charge}{Company}{Mm YYYY -- Mm YYYY}{City, Country}
+            \begin{itemize}
+                \item First achievement
+                \item Second achievement
+                \item Third achievement
+            \end{itemize}
+            \divider
+            
+            \cvevent{Charge}{Company}{Mm YYYY -- Mm YYYY}{City, Country}
+            \begin{itemize}
+                \item First achievement
+                \item Second achievement
+                \item Third achievement
+            \end{itemize}
+        % ----- EXPERIENCE -----
+        
+        % ----- EDUCATION -----
+        \cvsection{Education}
+            \cvevent{Title}{Institution}{Mm YYYY -- Mm YYYY}{City, Country}
+            \begin{itemize}
+                \item GPA: 1,23
+            \end{itemize}
+            \divider
+            
+            \cvevent{Title}{Institution}{Mm YYYY -- Mm YYYY}{City, Country}
+            \begin{itemize}
+                \item GPA: 1,23
+            \end{itemize}
+        % ----- EDUCATION -----
+        
+        % ----- PROJECTS -----
+        \cvsection{Projects}
+            \cvevent{Project 1 }{\cvreference{\faGithub}{https://github.com/user/repo}\cvreference{| \faGlobe}{https://project-demo.com/}}{Mm YYYY -- Mm YYYY}{}
+            \begin{itemize}
+                \item Item 1
+                \item Item 2
+            \end{itemize}
+            \divider
+            
+            \cvevent{Project 2 }{\cvreference{\faGitlab}{https://gitlab.com/user/repo}\cvreference{| \faGlobe}{https://project-demo.com/}}{Mm YYYY -- Mm YYYY}{}
+            \begin{itemize}
+                \item Item 1
+                \item Item 2
+            \end{itemize}
+        % ----- PROJECTS -----
+    \end{paracol}
+\end{document}
